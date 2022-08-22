@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* inherits from body */
+}
+
+html {
+    font-size: 69.5%;
+    /*1rem = root font size*/
+}
+
+body {
+    box-sizing: border-box;
+}
