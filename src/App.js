@@ -69,7 +69,7 @@ function App() {
             <span className="heading-primary--main">Outdoors</span>
             <span className="heading-primary--sub">is where life happens</span>
           </h1>
-          <a href="f" className="btn btn--white btn--animated">
+          <a href="#section-tours" className="btn btn--white btn--animated">
             Discover our tours
           </a>
         </div>
@@ -100,7 +100,7 @@ function App() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt corrupti maiores sequi officiis cumque quasi quo
               </p>
-              <a href="#" className="btn-text">
+              <a href="#s" className="btn-text">
                 Learn more &rarr;
               </a>
             </div>
@@ -177,7 +177,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="section-tours">
+        <section className="section-tours" id="section-tours">
           <div className="u-center-text u-margin-bottom-big">
             <h2 className="heading-secondary">Most popular tours</h2>
           </div>
@@ -207,7 +207,7 @@ function App() {
                       <p className="card__price-only">Only</p>
                       <p className="card__price-val">$297</p>
                     </div>
-                    <a href="s" className="btn btn--white">
+                    <a href="#popup" className="btn btn--white">
                       Book now!
                     </a>
                   </div>
@@ -240,7 +240,7 @@ function App() {
                       <p className="card__price-only">Only</p>
                       <p className="card__price-val">$497</p>
                     </div>
-                    <a href="s" className="btn btn--white">
+                    <a href="#popup" className="btn btn--white">
                       Book now!
                     </a>
                   </div>
@@ -273,7 +273,7 @@ function App() {
                       <p className="card__price-only">Only</p>
                       <p className="card__price-val">$897</p>
                     </div>
-                    <a href="s" className="btn btn--white">
+                    <a href="#popup" className="btn btn--white">
                       Book now!
                     </a>
                   </div>
@@ -486,6 +486,45 @@ function App() {
           </div>
         </div>
       </footer>
+
+      <div class="popup" id="popup">
+        <div class="popup__content">
+          <div class="popup__left">
+            <img src={storyPhoto1} alt="Tour" class="popup__img" />
+            <img src={storyPhoto2} alt="Tour" class="popup__img" />
+          </div>
+          <div class="popup__right">
+            <a href="#section-tours" class="popup__close">
+              &times;
+            </a>
+            <h2 class="heading-secondary u-margin-bottom-small">
+              Start booking now
+            </h2>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Important &ndash; Please read these terms before booking
+            </h3>
+            <p class="popup__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
+              sed risus pretium quam. Aliquam sem et tortor consequat id.
+              Volutpat odio facilisis mauris sit amet massa vitae. Mi bibendum
+              neque egestas congue. Placerat orci nulla pellentesque dignissim
+              enim sit. Vitae semper quis lectus nulla at volutpat diam ut
+              venenatis. Malesuada pellentesque elit eget gravida cum sociis
+              natoque penatibus et. Proin fermentum leo vel orci porta non
+              pulvinar neque laoreet. Gravida neque convallis a cras semper.
+              Molestie at elementum eu facilisis sed odio morbi quis. Faucibus
+              vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam
+              libero justo laoreet sit. Amet massa vitae tortor condimentum
+              lacinia quis vel eros donec. Sit amet facilisis magna etiam.
+              Imperdiet sed euismod nisi porta.
+            </p>
+            <a href="#s" class="btn btn--green">
+              Book now
+            </a>
+          </div>
+        </div>
+      </div>
 
       {/* <section class="grid-test">
         <div class="row">
