@@ -33,27 +33,27 @@ function App() {
         <nav className="navigation__nav">
           <ul className="navigation__list">
             <li className="navigation__item">
-              <a href="g" className="navigation__link">
+              <a href="#section-about" className="navigation__link">
                 <span>01</span> About Natous
               </a>
             </li>
             <li className="navigation__item">
-              <a href="g" className="navigation__link">
+              <a href="#section-features" className="navigation__link">
                 <span>02</span> Your benefits
               </a>
             </li>
             <li className="navigation__item">
-              <a href="g" className="navigation__link">
+              <a href="section-tours" className="navigation__link">
                 <span>03</span> Popular tours
               </a>
             </li>
             <li className="navigation__item">
-              <a href="g" className="navigation__link">
+              <a href="#section-stories" className="navigation__link">
                 <span>04</span> Stories
               </a>
             </li>
             <li className="navigation__item">
-              <a href="g" className="navigation__link">
+              <a href="#section-book" className="navigation__link">
                 <span>05</span> Book now
               </a>
             </li>
@@ -407,7 +407,7 @@ function App() {
                         name="size"
                       />
                       <label htmlFor="small" className="form__radio-label">
-                        <span className="form__radio-btn"></span>
+                        <span className="form__radio-button"></span>
                         Small tour group
                       </label>
                     </div>
@@ -419,7 +419,7 @@ function App() {
                         name="size"
                       />
                       <label htmlFor="large" className="form__radio-label">
-                        <span className="form__radio-btn"></span>
+                        <span className="form__radio-button"></span>
                         Large tour group
                       </label>
                     </div>
