@@ -1,70 +1,44 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Animated Web App - SCSS
 
-## Available Scripts
+This is an [web project](https://animated-website.herokuapp.com/) with animation effects developed with ReactJS and deployed with Heroku. There are no NPM packages installed to create animations - only **HTML** and **SCSS**. 
 
-In the project directory, you can run:
+Link - [https://animated-website.herokuapp.com/](https://animated-website.herokuapp.com/) 
 
-### `npm start`
+*Built by **SHERA KOSIMI** Copyright © by Shera Kosimi for his personal purposes. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Shera Kosimi, is of course highly appreciated!*   
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install the below tools/packages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Serial No | Software         | Version   | Serial No                                                                  |
+| :-------- | :--------------- | :-------- | :------------------------------------------------------------------------- |
+| 1         | Node.js          | >= 6.9.1  | [Install Node.js](https://nodejs.org/en/download/)                         |
+| 2         | npm              | >= 3.10.8 | [Install NPM](https://www.npmjs.com/get-npm)                               |
+| 3        | SASS              | >= 1.3.3 | [Install SASS](https://www.npmjs.com/package/sass)                               |
 
-### `npm test`
+## Installation
+Install animated-website with npm to run the website locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**System setup**
 
-### `npm run build`
+- Clone the repo with `git clone [REPO_URL] `
+- Switch to the project's root directory in terminal
+- Install the dependencies by running`npm install`
+- Once, 'npm install' is completed, start the server by running `npm start`
+- It will run the app in the development mode -  http://localhost:3000
+- The page will reload when you make changes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Color Reference
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color | ![#55c57a](https://via.placeholder.com/10/55c57a?text=+) #55c57a |
+| Secondary Color | ![#ffb900](https://via.placeholder.com/10/ffb900?text=+) #ffb900 |
+| Tertiary Color | ![#2998ff](https://via.placeholder.com/10/2998ff?text=+) #2998ff |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Authors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [@sherakosimi](https://www.github.com/sherakosimi)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
