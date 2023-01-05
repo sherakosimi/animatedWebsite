@@ -1,7 +1,7 @@
 
 # Animated Web App - SCSS
 
-This is a [web project](https://animated-website.herokuapp.com/) with animation effects developed with ReactJS and deployed with Heroku. There are no NPM packages installed to create animations - only **HTML** and **SCSS**. 
+This is a [web project](https://animated-website.herokuapp.com/) with animation effects developed with **ReactJS** and deployed with **Heroku**. There are no NPM packages installed to create animations - only **HTML** and **SCSS**. 
 
 Link - [https://animated-website.herokuapp.com/](https://animated-website.herokuapp.com/) 
 
